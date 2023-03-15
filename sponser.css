@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+
+
+.thankyou{
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.bluebox{
+    background: #CBE2FD;
+    height: 11rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.10rem;
+    padding: 3rem;
+}
+
+.bluebox p{
+    color: #081A7A;
+}
+
+@media(max-width:1000px){
+    .thankyou{
+        font-family: 'Inter';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0rem;
+        font-size: 1.25rem;
+    }
+    
+    .bluebox{
+        background: #CBE2FD;
+        height: 10rem;
+        /* display: flex; */
+        /* justify-content: center; */
+        text-align: center;
+        font-family: Inter;
+        font-size: .83rem;
+        padding: 1.25rem;
+    }
+    
+    .bluebox p{
+        color: #081A7A;
+    }
+}

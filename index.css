@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.uppernav{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+
+.p-button{
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    padding: 0 30px;
+    width: 150px;
+}
+
+.navbar{
+    background-color:white;
+}
+
+/* .carousel-item{
+    height: 50vh;
+}
+
+ .carousel-img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}   */
+
+
+.carousel::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(6, 22, 110);
+       background: linear-gradient(90deg rgb(6, 22, 110) 0%,
+        rgb(6,22,110)35%,
+        rgb(6,22,110)100% );
+    z-index: 1;
+    opacity: 0.35;
+    overflow: hidden;
+}
+
+.carousel-inner::before{
+    content: ' Introducing AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
+    white-space: pre;
+    font-size: 30px;
+    color: white;
+    font-family: 'Jacques Francois', serif;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    z-index: 1;
+}
+
+
+
+
+.about{
+    overflow: hidden;
+}
+.heading{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-family: 'Jacques Francois', serif;
+    color: #081A7A;
+    font-size: 42px;
+    text-align: center;
+    position: relative;
+
+}
+
+.infocontainer{
+    text-align: center;
+    position: relative;
+margin: auto;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+        color: black;
+    /* width: 900px; */
+    line-height: 2.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    -webkit-text-fill-color:#081A7A;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    /* border: 1px solid black; */
+    /* height: 100px; */
+    
+}
+
+.mission{
+    margin-top: 45px;
+    position: relative;
+}
+
+
+
+.sidebar h1{
+    color:  rgba(0, 30, 134, 0.12);
+    font-family: inherit;
+    /* font-weight: 500; */
+    font-size: 120px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-color: rgba(0, 30, 134, 0.12);
+    -webkit-font-smoothing: antialiased;
+    text-shadow: -5px -5px 0 #ffffff,
+     2px -2px 0 #ffffff,
+      -5px 2px 0 #ffffff,
+       2px 2px 0 #ffffff;
+    position: absolute;
+    /* border: 3px solid rgba(0, 30, 134, 0.12); */
+    top: -10rem;
+    right: -33rem;
+    transform: rotate(270deg);
+}
+
+.colorboxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 5rem;
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    background-color: rgba(204, 228, 255, 1);
+}
+.box:nth-child(2){
+    background: rgba(8, 26, 122, 1);
+
+}
+
+.innerimg{
+    display: grid;
+    place-items: center;
+    margin: 30px 0;
+    /* height: 60%; */
+    width: 100%;
+
+}
+
+.box1 p{
+   padding: 0 50px 20px;
+   text-align:center; 
+   font-size: 20px;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+}
+
+.box2 p{
+    padding: 0 40px 20px;
+    text-align:center; 
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+     font-weight: 400;
+     text-transform: capitalize;
+     color: white;
+}
+
+.newsSection{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    width: 50vw;
+}
+
+.newslettersection{
+    transform: scale(1.1);
+}
+.newsletterimg{
+    display: grid;
+    justify-content: flex-start;
+    transform: scale(0.7);
+    position: relative;
+}
+
+.newsletterimg::before{
+    content: '';
+    display: block;
+    width: 150px;
+    height: 650px;
+    background-color: rgba(8, 26, 122, 1);
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    z-index: -1;
+}
+.newsletter{
+    width: 500px;
+    height: 700px;
+    color: #000000;
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    background-color: #ffffff;
+}
+
+.newsletter .heading{
+    color: #000000;
+    letter-spacing: 0.2rem;
+}
+
+.newsletter .infocontent {
+    max-width: fit-content;
+    font-weight: lighter;
+    color: #000000;
+    /* -webkit-text-fill-color: black; */
+
+    text-align: center;
+    position: relative;
+margin: auto;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+        color: black;
+    width: 900px;
+    line-height: 2.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    
+}
+
+@media(max-width:700px){
+    .carousel{
+        height: 100%;
+    }
+    .carousel-inner::before{
+        content: ' Introducing AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
+        white-space: pre;
+        font-size: 15px;
+        color: white;
+        font-family: 'Jacques Francois', serif;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        -webkit-text-fill-color: #ffffff;
+        -webkit-text-stroke-width: 1px;
+        z-index: 1;
+    }
+    .news{
+        width: 100vw;
+    }
+    
+
+}
