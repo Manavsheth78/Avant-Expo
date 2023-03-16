@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Italianno&family=Oswald&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
 * {
     padding: 0%;
     margin: 0%;
@@ -5,20 +6,12 @@
 }
 
 
-
-footer {
-    background-color: rgba(6, 22, 110, 1);
-    height: fit-content;@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Italianno&family=Oswald&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
 
 main {
     background-color: red;
     height: 55vh;
 }
+
 
 footer {
     background-color: rgba(6, 22, 110, 1);
@@ -342,14 +335,13 @@ footer {
         font-family: system-ui;
     }
 }
-    overflow: hidden;
-    padding-top: 2rem;
-}
+
 
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 0rem;
     /* overflow: hidden; */
 }
 
@@ -369,7 +361,7 @@ footer {
 }
 
 .about p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Inter';
     color: white;
     width: 33rem;
     line-height: 1.60rem;
@@ -384,12 +376,14 @@ footer {
     margin-left: 3rem;
 }
 
-.usefullinks span {
+.usefullinks .heading {
     color: white;
     font-family: system-ui;
     font-weight: bolder;
     font-size: 2.50rem;
     padding-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .usefullinks ul {
@@ -400,13 +394,16 @@ footer {
     font-weight: bold;
     line-height: 2.5rem;
 }
-
+.follow{
+    margin-right: -12rem;
+}
 .follow .followus .heading {
     color: white;
     font-family: system-ui;
     font-weight: bolder;
     font-size: 2.50rem;
     padding-bottom: 1rem;
+    display: inline-table;
 }
 
 .follow .followus .content {
@@ -432,122 +429,17 @@ footer {
     font-weight: bolder;
     font-size: 2.50rem;
     padding-bottom: 1rem;
+    display: inline-table;
 }
 
 .meetatus .content {
-    width: fit-content;
+    width: 75%;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: system-ui;
 }
 
-@media(max-width:700px) {
 
-    footer {
-        background-color: rgba(6, 22, 110, 1);
-        height: fit-content;
-
-
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-    }
-
-    .about {
-        display: flex;
-        flex-direction: column;
-        margin-top: 3rem;
-    }
-
-    .aboutHeading {
-        color: white;
-        font-family: system-ui;
-        font-weight: bolder;
-        font-size: 2rem;
-        padding-bottom: 0.75rem;
-    }
-
-    .about p {
-        font-family: 'Courier New', Courier, monospace;
-        color: white;
-        width: 90vw;
-        line-height: 1.45rem;
-        font-size: .95rem;
-    }
-
-    .usefullinks {
-        margin-top: 1rem;
-        display: flex;
-        flex-direction: column;
-        margin-left: 1rem;
-    }
-    
-    .usefullinks span {
-        color: white;
-        font-family: system-ui;
-        font-weight: bolder;
-        font-size: 2rem;
-        padding-bottom: 1rem;
-    }
-    
-    .usefullinks ul {
-        list-style: none;
-        color: white;
-        font-family: monospace;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 2.5rem;
-    }
-
-    .follow{
-        margin-top: 1rem;
-        margin-left: 1rem;
-    }
-
-    .follow .followus .heading {
-        color: white;
-        font-family: system-ui;
-        font-weight: bolder;
-        font-size: 2rem;
-        padding-bottom: 1rem;
-    }
-    
-    .follow .followus .content {
-        color: white;
-        font-size: 2rem;
-        font-family: system-ui;
-    }
-    
-    .follow .followus img {
-        width: 3.5rem;
-        margin-right: 3rem;
-    }
-    
-    .meetatus {
-        display: flex;
-        flex-direction: column;
-        margin-top: 2rem;
-    }
-    
-    .meetatus .heading {
-        color: white;
-        font-family: system-ui;
-        font-weight: bolder;
-        font-size: 2rem;
-        padding-bottom: 1rem;
-    }
-    
-    .meetatus .content {
-        width: fit-content;
-        color: white;
-        font-size: 1.25rem;
-        font-family: system-ui;
-    }
-}
 
 @media(max-width:1000px ){
     footer {
@@ -576,7 +468,7 @@ footer {
     }
 
     .about p {
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Inter';
         color: white;
         width: 95vw;
         line-height: 2rem;
@@ -612,12 +504,14 @@ footer {
         margin-left: 1rem;
     }
 
+
     .follow .followus .heading {
         color: white;
         font-family: system-ui;
         font-weight: bolder;
-        font-size: 2rem;
-        padding-bottom: 1rem;
+        font-size: 3rem;
+        padding-bottom: 0.75rem;
+        display: inline-table;
     }
     
     .follow .followus .content {
@@ -627,6 +521,7 @@ footer {
     }
     
     .follow .followus img {
+        color: white;
         width: 3.5rem;
         margin-right: 3rem;
     }
@@ -643,12 +538,12 @@ footer {
         font-weight: bolder;
         font-size: rem;
         padding-bottom: 1rem;
+        display: table-cell;
     }
     
     .meetatus .content {
-        width: fit-content;
         color: white;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         font-family: system-ui;
     }
 }

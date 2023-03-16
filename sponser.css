@@ -26,6 +26,18 @@
     color: #081A7A;
 }
 
+.super{
+    margin-top: 1rem;
+}
+.superheading{
+    display: flex;
+    justify-content: center;
+    font-family: inter;
+    color: #081A7A;
+    font-size: 2rem;
+}
+
+
 @media(max-width:1000px){
     .thankyou{
         font-family: 'Inter';
