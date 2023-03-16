@@ -100,9 +100,9 @@ margin: auto;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: -0.05em;
-    -webkit-text-fill-color:#081A7A;
+    /* -webkit-text-fill-color:#081A7A;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: black; */
     /* border: 1px solid black; */
     /* height: 100px; */
     
@@ -256,7 +256,6 @@ margin: auto;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: -0.05em;
-    
 }
 
 @media(max-width:700px){
