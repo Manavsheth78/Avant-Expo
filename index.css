@@ -91,8 +91,10 @@
 .infocontainer{
     text-align: center;
     position: relative;
-margin: auto;
+        margin: auto;
+        /* margin: 20px 20px 20px  ; */
     margin-top: 20px;
+    padding: 0 50px 0 50px;
     font-family: 'Inter', sans-serif;
         color: black;
     /* width: 900px; */
