@@ -55,11 +55,12 @@
 }
 
 .carousel-inner::before{
-    content: ' Introducing AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
+    content: 'INTRODUCING AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
     white-space: pre;
     font-size: 30px;
+    /* font-weight: bold; */
     color: white;
-    font-family: 'Jacques Francois', serif;
+    font-family: 'Inter', serif;
     position: absolute;
     top: 50%;
     left: 0;
@@ -295,7 +296,7 @@ margin: auto;
 .checkboard img{
     width: 80%;
     height: 80%;
-    object-fit: cover;
+    object-fit: fill;
     
 }
 
@@ -313,11 +314,12 @@ margin: auto;
         height: 100%;
     }
     .carousel-inner::before{
-        content: ' Introducing AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
+        content: ' INTRODUCING AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
         white-space: pre;
         font-size: 15px;
+        /* font-weight: bold; */
         color: white;
-        font-family: 'Jacques Francois', serif;
+        font-family: 'Inter', serif;
         position: absolute;
         top: 50%;
         left: 0;
@@ -325,6 +327,7 @@ margin: auto;
         -webkit-text-stroke-width: 1px;
         z-index: 1;
     }
+  
     .news{
         width: 100vw;
     }
