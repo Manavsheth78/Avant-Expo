@@ -300,9 +300,9 @@ margin: auto;
 }
 
 .stall{
-    /* background-color: transparent;
-     */
      margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
  
 

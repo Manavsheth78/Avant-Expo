@@ -82,7 +82,7 @@ footer {
     color: white;
     font-family: system-ui;
     font-weight: bolder;
-    font-size: 2.50rem;
+    font-size: 15px;
     padding-bottom: 1rem;
     display: inline-table;
 }
@@ -108,7 +108,7 @@ footer {
     color: white;
     font-family: system-ui;
     font-weight: bolder;
-    font-size: 2.50rem;
+    font-size: 15px;
     padding-bottom: 1rem;
     display: inline-table;
     padding-right: 25rem;
@@ -117,7 +117,7 @@ footer {
 .meetatus .content {
     width: fit-content;
     color: white;
-    font-size: 1.5rem;
+    font-size: 10px ;
     font-family: system-ui;
 }
 
@@ -297,7 +297,7 @@ footer {
         color: white;
         font-family: system-ui;
         font-weight: bolder;
-        font-size: 3rem;
+        font-size: 15px;
         padding-bottom: 0.75rem;
         display: inline-table;
     }
@@ -324,7 +324,7 @@ footer {
         color: white;
         font-family: system-ui;
         font-weight: bolder;
-        font-size: rem;
+        font-size: 15px;
         padding-bottom: 1rem;
         display: table-cell;
     }
@@ -402,8 +402,8 @@ footer {
     color: white;
     font-family: system-ui;
     font-weight: bolder;
-    font-size: 2.50rem;
-    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
     display: inline-table;
 }
 
@@ -421,15 +421,15 @@ footer {
 .meetatus {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .meetatus .heading {
     color: white;
     font-family: system-ui;
     font-weight: bolder;
-    font-size: 2.50rem;
-    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
     display: inline-table;
 }
 
