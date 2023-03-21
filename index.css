@@ -67,6 +67,7 @@
     -webkit-text-fill-color: #ffffff;
     -webkit-text-stroke-width: 1px;
     z-index: 1;
+    margin-left: .5rem;
 }
 
 
@@ -328,6 +329,7 @@ margin: auto;
         -webkit-text-fill-color: #ffffff;
         -webkit-text-stroke-width: 1px;
         z-index: 1;
+        margin-left: .25rem;
     }
   
     .news{
