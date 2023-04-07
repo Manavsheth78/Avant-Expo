@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 
+
+/* .cards {
+    padding: 0 1rem 0 1.5rem;
+} */
+
+.row {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    /* display: grid;
+    grid-template-rows: 133px 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px 133px;
+    grid-row-gap: 7rem;
+    grid-column-gap: 18rem; */
+}
+
 .ourTeam {
     display: flex;
     justify-content: center;
@@ -7,11 +27,21 @@
     font-size: 5rem;
     padding: 1rem 0rem;
 }
-.team{
+
+.team {
     background: #081A7A;
     color: white;
 }
 
-.team img{
+.team img {
     border-radius: 50%;
 }
+
+/* @media(max-width:1000px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */
