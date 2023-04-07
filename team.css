@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@300&family=Inter:wght@300&family=Italianno&family=Oswald&family=Poppins:wght@600&family=Roboto&family=Source+Code+Pro:ital,wght@1,300&display=swap');
 
 
 /* .cards {
@@ -40,7 +41,7 @@
 }
 
 .team-cards{
-    height: 15rem;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 @media(max-width:1000px) {
