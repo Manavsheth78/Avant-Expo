@@ -19,7 +19,9 @@
     grid-row-gap: 7rem;
     grid-column-gap: 18rem; */
 }
-
+.col{
+    margin: 0 5rem 0 5rem;
+}
 .ourTeam {
     display: flex;
     justify-content: center;
