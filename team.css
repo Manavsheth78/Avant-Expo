@@ -43,11 +43,8 @@
     height: 15rem;
 }
 
-/* @media(max-width:1000px) {
-    .row {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+@media(max-width:1000px) {
+    .team-cards{
+        height: 15rem;
     }
-} */
+}
