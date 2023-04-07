@@ -78,7 +78,7 @@ footer {
     line-height: 2.5rem;
 }
 
-.usefullinks ul a {
+.usefullinks ul li a {
     color: white;
     text-decoration: none;
 }
