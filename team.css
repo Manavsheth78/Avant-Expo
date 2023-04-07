@@ -39,6 +39,10 @@
     border-radius: 50%;
 }
 
+.team-cards{
+    height: 15rem;
+}
+
 /* @media(max-width:1000px) {
     .row {
         display: flex;
