@@ -11,7 +11,9 @@
 }
 
 
-
+.col{
+	margin:0 2rem;
+}
 
 .counters {
 	background: #F5F5F5;
