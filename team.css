@@ -40,6 +40,10 @@
     border-radius: 50%;
 }
 
+.linkedIn img{
+    border-radius: 0%;
+}
+
 .team-cards{
     font-family: 'Fira Sans', sans-serif;
 }

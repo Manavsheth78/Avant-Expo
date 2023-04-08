@@ -55,7 +55,7 @@
 }
 
 .carousel-inner::before{
-    content: 'INTRODUCING AVANT EXPO \A SANKALP -  SAHYOG - SAMUTKARSH ';
+    content: "INTRODUCING AVANT-EXPO'23 \A SANKALP -  SAHYOG - SAMUTKARSH ";
     white-space: pre;
     font-size: 30px;
     /* font-weight: bold; */
