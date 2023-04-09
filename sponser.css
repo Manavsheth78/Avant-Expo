@@ -37,6 +37,10 @@
     font-size: 2rem;
 }
 
+.sponsorCards:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+}
+
 
 @media(max-width:1000px){
     .thankyou{
@@ -61,5 +65,9 @@
     
     .bluebox p{
         color: #081A7A;
+    }
+
+    .sponsorCards:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,.2);
     }
 }
